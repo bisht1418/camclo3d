@@ -1,0 +1,83 @@
+[
+    {
+        "productId": "acb5ad72-d806-4293-b374-a351c0533807",
+        "productName": "Saree",
+        "productDescription": "Discover the elegance and versatility of our Women's Customizable Texture Saree, designed for the discerning woman who appreciates fine craftsmanship and personalized style. Made from exquisite fabrics, this saree offers a perfect blend of tradition and contemporary flair.",
+        "price": 1200,
+        "thumbnailImage": "/saree/saree.png",
+        "defaultColor": "#ffffff",
+        "customLayers": [
+            {
+                "id": 1,
+                "layerImage": "/saree/background_layer.png"
+            },
+            {
+                "id": 2,
+                "layerImage": "/saree/saree_layer.png"
+            },
+            {
+                "id": 3,
+                "layerImage": "/saree/woman_layer.png"
+            }
+        ],
+        "textures":[
+            {
+                "id": 1,
+                "sareeLayer": "/saree_textures/1.jpg",
+                "blouseLayer":"/saree_textures/1_b.jpg",
+                "thumbnailImage":"/saree_textures/1_thumb.png"
+            },
+            {
+                "id": 2,
+               "sareeLayer": "/saree_textures/2.jpg",
+                "blouseLayer":"/saree_textures/2_b.jpg",
+                "thumbnailImage":"/saree_textures/2_thumb.png"
+            },
+            {
+                "id": 3,
+                "sareeLayer": "/saree_textures/3.jpg",
+                "blouseLayer":"/saree_textures/3_b.jpg",
+                "thumbnailImage":"/saree_textures/3_thumb.png"
+            }
+        ]
+    },
+    {
+        "productId": "ec952503-1e14-4ea4-a9e4-171dae546323",
+        "productName": "Shirt",
+        "productDescription": "Elevate your wardrobe with our Men's Customizable Texture Shirt, designed for the modern man who values both style and individuality. Crafted from premium materials, this shirt offers the perfect blend of comfort and sophistication.",
+        "price": 1200,
+        "thumbnailImage": "/shirt/shirt.png",
+        "defaultColor": "#ffffff",
+        "customLayers": [
+            {
+                "id": 1,
+                "layerImage": "/shirt/background_layer.png"
+            },
+            {
+                "id": 2,
+                "layerImage": "/shirt/shirt_layer.png"
+            },
+            {
+                "id": 3,
+                "layerImage": "/shirt/body_layer.png"
+            }
+        ],
+        "textures":[
+            {
+                "id": 1,
+                "layerImage": "/shirt_textures/1.jpg",
+                "thumbnailImage":"/shirt_textures/1_thumb.png"
+            },
+            {
+                "id": 2,
+                "layerImage": "/shirt_textures/2.jpg",
+                "thumbnailImage":"/shirt_textures/2_thumb.png"
+            },
+            {
+                "id": 3,
+                "layerImage": "/shirt_textures/3.jpg",
+                "thumbnailImage":"/shirt_textures/3_thumb.png"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "id": 1,
+  "curtain_body": "/curtain/DSC_0003_BODY.glb",
+  "curtain_img": "/curtain/DSC_0003_BODY.png",
+  "curtain_glb": "/curtain/DSC_0003_CURTAIN_CAM.glb",
+  "curtain_shadow":"/curtain/DSC_0003_SHADOWS.png"
+ }
+]

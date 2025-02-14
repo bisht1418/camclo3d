@@ -1,0 +1,269 @@
+* {
+  @apply select-none;
+}
+
+html {
+  font-size: 16px;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.navbar-link {
+  @apply text-themeBlack font-[500] text-[1rem] relative;
+}
+
+.navbar-link.active {
+  @apply !text-primary;
+}
+
+.navbar-link::after {
+  content: "";
+  @apply absolute left-0 bottom-[-0.19rem] bg-gradient-to-r from-[#E1D9E9] to-[#8C2A8D] h-[0.19rem] rounded-full;
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-link.active::after {
+  width: 100%;
+  animation: slideIn 0.3s ease-in-out forwards;
+}
+
+.btn-outline {
+  @apply border-[0.13rem] !border-primary rounded-[0.5rem] p-[0.6rem_1.3rem] font-[700] text-[0.9rem] !text-primary hover:!bg-[white];
+}
+
+.btn-primary {
+  @apply rounded-[0.5rem] p-[0.6rem_1.3rem] font-[700] text-[0.9rem] !text-white !bg-primary hover:bg-white;
+}
+
+input[type="text"].signup-input:focus {
+  outline: none;
+  border: 1px solid #cccccc !important;
+}
+input[type="text"].signup-input {
+  @apply outline-none !border !border-[#CCCCCC] !pl-[0px] w-[300px] h-[50px] placeholder:text-[black] placeholder:text-[20px] placeholder:font-[400] text-[20px] md:text-[25px] lg:text-[28px] xl:text-[30px] font-[700] text-[#0072BB];
+}
+
+.S9gUrf-YoZ4jf {
+  @apply flex items-center justify-center !w-[2.5rem] !h-[2.5rem] rounded-full !border !border-[#CAC2D1] hover:bg-[#CAC2D1] cursor-pointer;
+}
+
+.slick-arrow slick-prev {
+  background-color: black;
+}
+
+.slick-prev:before {
+  background-color: #8c2a8d;
+  color: #8c2a8d !important;
+}
+.slick-next:before {
+  color: #8c2a8d !important;
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 13px;
+  }
+}
+.form-bg {
+  background: var(--background-image);
+  background-repeat: no-repeat !important;
+  width: auto !important;
+  height: auto !important;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+}
+
+.arrow-up {
+  width: 24px;
+  height: 40px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid #cac2d1;
+  @apply absolute top-[-20px] right-0 translate-x-[50%] z-[-1];
+}
+
+.btn-active {
+  @apply border-[0.13rem] !border-[#8c2a8d] !bg-[#8c2a8d] rounded-[0.5rem] p-[0.188rem_1.15rem] font-[600] text-[1rem] leading-[0.23rem] !text-white hover:!bg-[#8c2a8d];
+}
+
+@keyframes fadeInSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-slide-in {
+  animation: fadeInSlideIn 0.5s ease-out forwards;
+}
+
+.fade-in-slide-out {
+  animation: fadeInSlideIn 0.5s ease-out forwards;
+}
+
+.btn-purchase {
+  @apply border-[0.125rem] border-primary rounded-[0.5rem] p-[0.9rem_3.438rem] font-[700] text-[0.9rem] !text-primary hover:!bg-white;
+}
+.container-custom {
+  max-width: 100%;
+  padding: 0 3.125rem;
+}
+@media screen and (max-width: 1024px) {
+  .container-custom {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn-purchase {
+    padding: 0.9rem 2rem;
+  }
+}
+
+/* ==================================Range_Slider================================== */
+/* Range Slider Customization */
+input[type="range"] {
+  -webkit-appearance: none; /* Remove default appearance */
+  width: 100%; /* Full-width */
+  background: transparent; /* Use inline style for background */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px; /* Thumb width */
+  height: 15px; /* Thumb height */
+  background: #8c2a8d; /* Thumb color */
+  cursor: pointer;
+  border-radius: 50%; /* Rounded corners */
+  margin-top: -4px; /* Adjust this value to vertically center */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #8c2a8d;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -4px; /* Adjust this value for Firefox */
+}
+
+input[type="range"]::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: #8c2a8d;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 0; /* IE does not support negative margin, may need different adjustment */
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* ==================================Scrollbar================================== */
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thin for Firefox */
+  scrollbar-color: #8c2a8d #e1d8e9; /* Thumb color and track color for Firefox */
+}
+
+/* For WebKit browsers (Chrome, Safari, and newer versions of Edge) */
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #8c2a8d #e1d8e9 !important;
+}
+
+*::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e1d8e9 !important;
+  border-radius: 10px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #8c2a8d !important;
+  border-radius: 10px !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #732674 !important;
+}
+.pink-dropdown option {
+  background-color: white; /* Default background for all options */
+  color: black; /* Default text color */
+}
+
+/* Style for the hovered option */
+.pink-dropdown:focus option:hover {
+  background-color: red !important; /* Pink background when hovering over an option */
+  color: red;
+}
+
+/* Style for the selected option */
+.pink-dropdown option:checked {
+  background-color: #efe8f5; /* Light blue background for the selected option */
+  color: black;
+}
+.resolution-selectBox {
+  position: relative;
+}
+.resolution-selectBox select {
+  -webkit-appearance: none;
+  box-shadow: 0px 0px 4px 0px #8c2a8d40;
+  border-color: #e1d9e9;
+}
+.resolution-selectBox::after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 15px;
+  height: 11px;
+  width: 20px;
+  background-image: url(/public/btm-dropdown.svg);
+  background-repeat: no-repeat;
+}
+option:hover {
+  background-color: red !important;
+}
+
+.blouseSelection > div canvas {
+  width: 100% !important;
+}
+.shirtCanvas canvas {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 600px;
+  object-fit: contain;
+}

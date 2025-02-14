@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "bedsheet_body": "/bedsheet/DSC_0001/DSC_0001_BODY.glb",
+        "bedsheet_img": "/bedsheet/DSC_0001/DSC_0001_BODY.png",
+        "bedsheet_glb": "/bedsheet/DSC_0001/DSC_0001_BEDSHEET_CAM.glb",
+        "bedsheet_shadow": "/bedsheet/DSC_0001/DSC_0001_SHADOWS.png",
+        "pillow":"/bedsheet/DSC_0001/DSC_0001_PILLOW_UPDATED.glb"
+    }
+]

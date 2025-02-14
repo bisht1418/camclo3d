@@ -1,0 +1,71 @@
+[
+ {
+  "id": 0,
+  "blouse_glb": "/saree_two/DSC_9493/DSC_9493_BLOUSE.glb",
+  "blouse_sleeves_glb": "/saree_two/DSC_9493/DSC_9493_BLOUSE_SLEEVES.glb",
+  "saree_glb": "/saree_two/DSC_9493/DSC_9493_SAREE.glb",
+  "body_glb": "/saree_two/DSC_9493/DSC_9493_BODY.glb",
+  "body_png": "/saree_two/DSC_9493/DSC_9493_BODY.png",
+  "position_01": {
+   "x": 0.13,
+   "y": -0.88,
+   "z": 0
+  },
+  "scale_01": {
+   "x": 0.43,
+   "y": 0.5,
+   "z": -10.5
+  },
+  "position_001": {
+   "x": 0.12,
+   "y": -0.88,
+   "z": 0.5
+  },
+  "scale_001": {
+   "x": 0.39,
+   "y": 0.5,
+   "z": 0.5
+  },
+  "position_02": {
+   "x": 0.06,
+   "y": -0.88,
+   "z": 0
+  },
+  "scale_02": {
+   "x": 0.65,
+   "y": 0.5,
+   "z": 0.5
+  },
+  "position_03": {
+   "x": 0.13,
+   "y": -0.83,
+   "z": 0
+  },
+  "scale_03": {
+   "x": 0.48,
+   "y": 0.48,
+   "z": 1
+  },
+  "position_003": {
+   "x": 0.13,
+   "y": -1.04,
+   "z": 0
+  },
+  "scale_003": {
+   "x": 0.48,
+   "y": 0.55,
+   "z": -0.5
+  },
+  "background_position": {
+   "x": 0.109,
+   "y": 0.073,
+   "z": 1
+  },
+  "background_scale": {
+   "x": 0.31,
+   "y": 0.99,
+   "z": 0.5
+  },
+  "shirt_img": "/Shirt_Template/SHIRT_IMAGE/1.png"
+ }
+]

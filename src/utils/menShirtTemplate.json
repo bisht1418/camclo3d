@@ -1,0 +1,101 @@
+[
+ {
+  "id": 1,
+  "background": "/Shirt_Template/DSC_0002/DSC_0002_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0002/DSC_0002_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0002/DSC_0002_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0002/DSC_0002_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/2.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0002/DSC_0002_DEPTH.png"
+ },
+ {
+  "id": 2,
+  "background": "/Shirt_Template/DSC_0003/DSC_0003_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0003/DSC_0003_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0003/DSC_0003_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0003/DSC_0003_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/3.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0003/DSC_0003_SHADOWS.png"
+ },
+ {
+  "id": 3,
+  "background": "/Shirt_Template/DSC_0004/DSC_0004_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0004/DSC_0004_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0004/DSC_0004_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0004/DSC_0004_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/4.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0004/DSC_0004_SHADOWS.png"
+ },
+ {
+  "id": 4,
+  "background": "/Shirt_Template/DSC_0005/DSC_0005_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0005/DSC_0005_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0005/DSC_0005_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0005/DSC_0005_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/5.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0005/DSC_0005_SHADOWS.png"
+ },
+ {
+  "id": 5,
+  "background": "/Shirt_Template/DSC_0006/DSC_0006_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0006/DSC_0006_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0006/DSC_0006_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0006/DSC_0006_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/6.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0006/DSC_0006_SHADOWS.png"
+ },
+ {
+  "id": 6,
+  "background": "/Shirt_Template/DSC_0007/DSC_0007_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0007/DSC_0007_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0007/DSC_0007_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0007/DSC_0007_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/7.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0007/DSC_0007_SHADOWS.png"
+ },
+ {
+  "id": 7,
+  "background": "/Shirt_Template/DSC_0008/DSC_0008_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0008/DSC_0008_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0008/DSC_0008_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0008/DSC_0008_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/8.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0008/DSC_0008_SHADOWS.png"
+ },
+ {
+  "id": 8,
+  "background": "/Shirt_Template/DSC_0009/DSC_0009_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0009/DSC_0009_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0009/DSC_0009_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0009/DSC_0009_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/9.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0009/DSC_0009_SHADOWS.png"
+ },
+ {
+  "id": 9,
+  "background": "/Shirt_Template/DSC_0010/DSC_0010_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0010/DSC_0010_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0010/DSC_0010_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0010/DSC_0010_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/10.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0010/DSC_0010_SHADOWS.png"
+ },
+ {
+  "id": 10,
+  "background": "/Shirt_Template/DSC_0011/DSC_0011_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0011/DSC_0011_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0011/DSC_0011_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0011/DSC_0011_BODY.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0011/DSC_0011_SHADOWS.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/11.png"
+ },
+ {
+  "id": 11,
+  "background": "/Shirt_Template/DSC_0012/DSC_0012_BACKGROUND.glb",
+  "body_glb": "/Shirt_Template/DSC_0012/DSC_0012_BODY.glb",
+  "shirt_glb": "/Shirt_Template/DSC_0012/DSC_0012_SHIRT_CAM.glb",
+  "body_png": "/Shirt_Template/DSC_0012/DSC_0012_BODY.png",
+  "img": "/Shirt_Template/SHIRT_IMAGE/1.png",
+  "shirt_shadow_png": "/Shirt_Template/DSC_0012/DSC_0012_SHADOWS.png"
+ }
+]
